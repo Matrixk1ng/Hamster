@@ -1,0 +1,30 @@
+# Target expression per meme, 0 = absent, 1 = strong. Blank = 0.
+# Features come from MediaPipe face blendshapes (see hamstermirror/expression.py).
+# scripts/enroll.py learns your own version of each face and overrides these.
+file,smile,smile_asym,teeth,jaw_open,stretch,frown,pucker,press,sneer,cheek_puff,brow_down,brow_up,brow_asym,eye_wide,eye_squint,eye_closed,side_eye
+hamster_laughing.png,0.8,,0.6,0.7,,,,,,,,,,,0.5,0.7,
+h01_blushing_holding_baby.jpg,0.4,,,,,,,,,,,0.2,,,0.3,,
+h02_screaming_horror.jpg,,,0.3,0.9,0.5,,,,,,,0.7,,0.6,,,
+h03_trollface_grin.jpg,1,,0.7,,0.5,,,,,,0.2,,,,0.6,,
+h04_shy_puppy_eyes.jpg,0.1,,,,,,,0.4,,,,0.7,,0.5,,,
+h05_deeply_unimpressed.jpg,,,,,,0.6,,0.3,,,0.7,,,,0.6,,
+h06_duckface_pout.jpg,,,,,,,0.9,,,,,,,,0.3,0.3,
+h07_heart_hands.jpg,0.7,,0.4,0.5,,,,,,,,,,0.3,,,
+h08_exasperated_sigh.jpg,0.1,,,,,,,,,,,0.3,,,,0.8,
+h09_jaw_drop_shock.jpg,,,,1,,,,,,,,0.8,,0.9,,,
+h10_calm_content.jpg,0.3,,,,,,,,,,,,,,,,
+h11_smug_grin.jpg,0.6,0.3,,,,,,0.3,,,0.3,,,,0.5,,
+h12_stoic_bat_mask.jpg,,,,,,,,0.4,,,0.25,,,,,,
+h13_simple_happy_smile.jpg,0.7,,,,,,,,,,,,,0.3,,,
+h14_tiny_blank_stare.jpg,,,,,,,,,,,,,,,,,
+h15_forced_toothy_grin.jpg,0.9,,0.9,,0.6,,,,,,,,,0.7,,,
+h16_stunned_stare.jpg,,,,,,,,0.2,,,,,,0.7,,,
+h17_sweet_content_smile.jpg,0.5,,,,,,,,,,,,,,0.5,,
+h18_suspicious_side_eye.jpg,,,,,,,,0.3,,,0.3,,0.3,,0.6,,0.7
+h19_rage_powering_up.jpg,,,,0.9,0.5,,,,,,0.8,,,,,0.6,
+h20_blushing_flowers.jpg,0.6,,,,,,,,,,,,,,0.4,0.5,
+h21_peace_sign.jpg,0.2,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0.8,0.8,0
+h22_lollipop.jpg,0.4,0,0,0.4,0,0,0,0,0,0,0,0,0,0.3,0,0,0
+h23_thumbs_up.jpg,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0
+h24_glasses_pointing.jpg,0.7,0,0.3,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0
+h25_tongue_out.jpg,0.3,0,0,0.3,0,0,0,0,0,0,0,0,0,0.2,0,0,0

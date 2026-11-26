@@ -1,0 +1,31 @@
+# One row per meme. emotion must be a FER2013 class: angry, disgust, fear, happy, sad, surprise, neutral
+# description is free text about how the face looks (used by CLIP)
+# gesture is optional: blank, or one of heart_hands, steepled_fingers, hands_on_cheeks, hand_on_forehead,
+#   hand_over_face, thumbs_up, thumbs_down, peace, pointing, open_palm, fist
+file,emotion,description,gesture
+hamster_laughing.png,happy,like it is laughing hysterically with its mouth wide open and eyes squeezed shut,
+h01_blushing_holding_baby.jpg,happy,"shy and blushing with rosy cheeks, gently cradling a tiny baby hamster",
+h02_screaming_horror.jpg,fear,screaming in horror with hands pressed to its cheeks and a stretched open mouth,hands_on_cheeks
+h03_trollface_grin.jpg,happy,grinning a huge mischievous trollface smile with squinted wrinkled eyes,
+h04_shy_puppy_eyes.jpg,neutral,"shy and nervous with big sparkly eyes, blushing and biting its lip",
+h05_deeply_unimpressed.jpg,disgust,"deeply unimpressed, squinting with furrowed brows and a long droopy frown",
+h06_duckface_pout.jpg,neutral,making a duck face pout with big puckered lips and heavy lidded eyes,
+h07_heart_hands.jpg,happy,"overjoyed, making a heart with its hands and smiling with its mouth open",heart_hands
+h08_exasperated_sigh.jpg,sad,sighing in exasperation with a hand on its forehead and eyes closed,hand_on_forehead
+h09_jaw_drop_shock.jpg,surprise,jaw dropped in shock with eyes bulging out and mouth wide open,
+h10_calm_content.jpg,neutral,calm and content with relaxed eyes and a small polite closed mouth smile,
+h11_smug_grin.jpg,happy,smug and sly with narrowed eyes and a wide self satisfied closed mouth grin,
+h12_stoic_bat_mask.jpg,neutral,serious and stoic wearing a bat mask and cape with a flat mouth,
+h13_simple_happy_smile.jpg,happy,simple wide happy smile with wide open eyes,
+h14_tiny_blank_stare.jpg,neutral,blank deadpan stare with a tiny expressionless face,
+h15_forced_toothy_grin.jpg,happy,"forced huge toothy grin with wide bulging eyes, smiling awkwardly through pain",
+h16_stunned_stare.jpg,neutral,stunned blank stare with wide round eyes and a tiny flat mouth,
+h17_sweet_content_smile.jpg,happy,sweet content smile with happy squinting eyes and a buck tooth showing,
+h18_suspicious_side_eye.jpg,disgust,"suspicious and skeptical, squinting with side eye and pursed lips",
+h19_rage_powering_up.jpg,angry,"screaming with rage while powering up, mouth wide open and eyes clenched",
+h20_blushing_flowers.jpg,happy,"blushing and smiling happily with content closed eyes, surrounded by flowers",
+h21_peace_sign.jpg,happy,"playful with a wink and tongue out, holding up a peace sign",peace
+h22_lollipop.jpg,happy,"gleefully licking a colorful lollipop while wearing a propeller beanie",
+h23_thumbs_up.jpg,happy,"wearing a pleased smile while giving a clear thumbs up",thumbs_up
+h24_glasses_pointing.jpg,happy,"goofy buck-toothed grin with oversized glasses, raising one finger",pointing
+h25_tongue_out.jpg,happy,"sticking its tongue out playfully with a small open-mouth grin",

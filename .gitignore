@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+checkpoints/
+results/
+data/clips/
+data/frames/
+data/*.csv
+data/fer2013*
+models/*.tflite
+# participant recordings are personal data, never commit them
